@@ -7,8 +7,7 @@ Thanks for the [original code](https://github.com/thunlp/OpenDelta/tree/main/exa
 **To run the code**
 
 ## Install Pytorch
-
-
+`pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113`
 ## Install requriments
 
 ```
