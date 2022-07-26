@@ -3,7 +3,9 @@
 This repo mainly contains several running scripts to use OpenDelta to conduct parameter-efficient training of various tasks.
 
 **Note that we suggest adding OpenDelta to existing scripts, instead of modify a scripts into the following examples. OpenDelta itself doens't restrict the training pipeline nor provide pipeline.**
-
+```
+pip install -r requriments.txt
+```
 
 ## tutorial
 Several toy tutorials:
