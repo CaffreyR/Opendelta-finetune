@@ -9,3 +9,6 @@ rich
 web.py
 gitpython
 opendelta
+scipy
+sklearn
+tensorboardX
