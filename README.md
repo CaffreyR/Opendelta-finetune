@@ -5,10 +5,16 @@ This repo mainly contains several running scripts to use OpenDelta to finetune l
 Thanks for the [original code](https://github.com/thunlp/OpenDelta/tree/main/examples/)
 
 **To run the code**
+
+## Install Pytorch
+
+
+## Install requriments
+
 ```
 pip install -r requriments.txt
 ```
-
+## Install the repo
 ```
 python setup_seq2seq.py develop
 ```
