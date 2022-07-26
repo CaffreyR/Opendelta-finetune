@@ -24,10 +24,10 @@ python setup_seq2seq.py develop
 cd examples_seq2seq
 python test_seq2seq.py configs/$job_name/$dataset_test.json
 ```
-For instance, `python test_seq2seq.py configs/lora_t5-base_1/superglue_copatest.json`
+For instance, `python test_seq2seq.py configs/lora_t5-base_1/superglue-copatest.json`
 
 ## To train the code
 ```
 python run_seq2seq.py configs/$job_name/$dataset.json
 ```
-For instance, `python run_seq2seq.py configs/lora_t5-base_1/superglue_copa.json`
+For instance, `python run_seq2seq.py configs/lora_t5-base_1/superglue-copa.json`
