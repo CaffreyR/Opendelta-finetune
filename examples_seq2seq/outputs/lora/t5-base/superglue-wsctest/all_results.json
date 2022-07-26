@@ -1,0 +1,12 @@
+{
+    "eval_accuracy": 50.0,
+    "eval_average_metrics": 50.0,
+    "eval_loss": 0.2697841227054596,
+    "eval_runtime": 0.5402,
+    "eval_samples_per_second": 96.261,
+    "test_accuracy": 55.769230769230774,
+    "test_average_metrics": 55.769230769230774,
+    "test_loss": 0.25774967670440674,
+    "test_runtime": 0.4946,
+    "test_samples_per_second": 105.143
+}

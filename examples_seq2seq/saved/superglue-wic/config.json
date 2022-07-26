@@ -1,0 +1,20 @@
+{
+  "backbone_checkpoint_name": "t5-base",
+  "backbone_class": "T5ForConditionalGeneration",
+  "backbone_hash": "8b7fd35737b6d16e0174bc61f977e429",
+  "common_structure": null,
+  "delta_type": "lora",
+  "exclude_modules": [
+    "lm_head"
+  ],
+  "lora_alpha": 16,
+  "lora_dropout": 0.0,
+  "lora_r": 8,
+  "modified_modules": [
+    "[r](\\d).SelfAttention.[q,v,o,k]",
+    "[r](\\d).EncDecAttention.[q,v,o,k]",
+    "[r](\\d).DenseReluDense.w[o,i]"
+  ],
+  "opendelta_version": "0.2.4",
+  "transformers_version": "4.15.0"
+}

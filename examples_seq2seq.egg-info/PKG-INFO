@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: examples-seq2seq
+Version: 0.0.1
+Summary: seq2seq example
+Home-page: UNKNOWN
+Author: Shengding Hu
+License: MIT License
+Keywords: text nlp machinelearning
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7.10
+Description-Content-Type: text/markdown
+
+examples_seq2seq
+

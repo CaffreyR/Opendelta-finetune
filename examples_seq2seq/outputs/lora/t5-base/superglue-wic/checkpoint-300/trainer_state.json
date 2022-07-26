@@ -1,0 +1,43 @@
+{
+  "best_metric": 67.39811912225704,
+  "best_model_checkpoint": "outputs/lora/t5-base/superglue-wic/checkpoint-300",
+  "epoch": 1.7647058823529411,
+  "global_step": 300,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.59,
+      "eval_accuracy": 65.8307210031348,
+      "eval_average_metrics": 65.8307210031348,
+      "eval_loss": 0.27573099732398987,
+      "eval_runtime": 2.1128,
+      "eval_samples_per_second": 150.981,
+      "step": 100
+    },
+    {
+      "epoch": 1.18,
+      "eval_accuracy": 63.94984326018809,
+      "eval_average_metrics": 63.94984326018809,
+      "eval_loss": 0.32338017225265503,
+      "eval_runtime": 2.154,
+      "eval_samples_per_second": 148.094,
+      "step": 200
+    },
+    {
+      "epoch": 1.76,
+      "eval_accuracy": 67.39811912225704,
+      "eval_average_metrics": 67.39811912225704,
+      "eval_loss": 0.3204241394996643,
+      "eval_runtime": 2.1918,
+      "eval_samples_per_second": 145.545,
+      "step": 300
+    }
+  ],
+  "max_steps": 3400,
+  "num_train_epochs": 20,
+  "total_flos": 641335359098880.0,
+  "trial_name": null,
+  "trial_params": null
+}

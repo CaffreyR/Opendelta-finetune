@@ -1,0 +1,52 @@
+{
+  "best_metric": 50.0,
+  "best_model_checkpoint": "outputs/lora/t5-base/superglue-wsc.fixed/checkpoint-300",
+  "epoch": 20.0,
+  "global_step": 360,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 5.56,
+      "eval_accuracy": 40.38461538461539,
+      "eval_average_metrics": 40.38461538461539,
+      "eval_loss": 0.29514163732528687,
+      "eval_runtime": 0.4385,
+      "eval_samples_per_second": 118.594,
+      "step": 100
+    },
+    {
+      "epoch": 11.11,
+      "eval_accuracy": 38.46153846153847,
+      "eval_average_metrics": 38.46153846153847,
+      "eval_loss": 0.2769518196582794,
+      "eval_runtime": 0.4819,
+      "eval_samples_per_second": 107.896,
+      "step": 200
+    },
+    {
+      "epoch": 16.67,
+      "eval_accuracy": 50.0,
+      "eval_average_metrics": 50.0,
+      "eval_loss": 0.2697841227054596,
+      "eval_runtime": 0.477,
+      "eval_samples_per_second": 109.012,
+      "step": 300
+    },
+    {
+      "epoch": 20.0,
+      "step": 360,
+      "total_flos": 1512864345618432.0,
+      "train_loss": 0.49050784640842016,
+      "train_runtime": 144.9668,
+      "train_samples_per_second": 76.431,
+      "train_steps_per_second": 2.483
+    }
+  ],
+  "max_steps": 360,
+  "num_train_epochs": 20,
+  "total_flos": 1512864345618432.0,
+  "trial_name": null,
+  "trial_params": null
+}
