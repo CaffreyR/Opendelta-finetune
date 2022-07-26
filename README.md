@@ -4,11 +4,26 @@ This repo mainly contains several running scripts to use OpenDelta to finetune l
 
 Thanks for the [original code](https://github.com/thunlp/OpenDelta/tree/main/examples/)
 
-**Note that we suggest adding OpenDelta to existing scripts, instead of modify a scripts into the following examples. OpenDelta itself doens't restrict the training pipeline nor provide pipeline.**
+**To run the code**
 ```
 pip install -r requriments.txt
 ```
 
+```
+python setup_seq2seq.py develop
+```
+## To test the code
+```
+cd examples_seq2seq
+python test_seq2seq.py configs/$job_name/$dataset_test.json
+```
+For instance, `python test_seq2seq.py configs/lora_t5-base_1/superglue_copatest.json`
+
+## To train the code
+```
+python run_seq2seq.py configs/$job_name/$dataset.json
+```
+For instance, `python run_seq2seq.py configs/lora_t5-base_1/superglue_copa.json`
 ## tutorial
 Several toy tutorials:
 1. The scripts for docs/basic_usage
